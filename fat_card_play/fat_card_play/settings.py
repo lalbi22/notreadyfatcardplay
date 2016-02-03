@@ -81,12 +81,12 @@ DATABASES = {
     #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
     'default': {
-         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-         #'ENGINE': 'django.db.backends.mysql',
+         #'ENGINE': 'django.db.backends.postgresql_psycopg2',
+         'ENGINE': 'django.db.backends.mysql',
          #'ENGINE': 'mysql.connector.django',
          'NAME': 'django01',
-         'USER': 'postgres',
-         'PASSWORD': 'zsanika1',
+         'USER': 'fatcard',
+         'PASSWORD': 'fatcardpswd',
          'HOST': 'ubuntu01',
          'PORT': '5432',
      }
