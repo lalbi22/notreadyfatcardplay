@@ -88,7 +88,7 @@ DATABASES = {
          'USER': 'fatcard',
          'PASSWORD': 'fatcardpswd',
          'HOST': 'ubuntu01',
-         'PORT': '5432',
+         'PORT': '3306',
      }
 }
 
