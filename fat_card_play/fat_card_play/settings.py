@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE_CLASSES = [
-    'django.middleware.security.SecurityMiddleware',
+    #django.middleware.security.SecurityMiddleware', #becouse of problem switched off django 1.7
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -85,10 +85,11 @@ DATABASES = {
          'ENGINE': 'django.db.backends.mysql',
          #'ENGINE': 'mysql.connector.django',
          'NAME': 'django01',
-         'USER': 'ubuntu01',
-         'PASSWORD': '....',
+         'USER': 'fatcard',
+         'PASSWORD': 'fatcardpswd',
          'HOST': 'ubuntu01',
-         'PORT': '3306',
+         #'PORT': '5432', #posgresql
+         'PORT': '3306', #mysql
      }
 }
 
